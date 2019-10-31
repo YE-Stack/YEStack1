@@ -1,0 +1,3 @@
+[submodule "Notify"]
+	path = Notify
+	url = https://github.com/YE-Stack/Notify.git
