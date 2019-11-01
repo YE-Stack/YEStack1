@@ -105,5 +105,5 @@ We would like to acknowledge everyone involved in the project for all the work t
 P.S 
 Anyone intrested in contributing can go ahead and submit a pull request.
 
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20Us-anything-1abc9c.svg)](https://github.com/jacob13400)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20Us-anything-1abc9c.svg)](jacob13400@cet.ac.in)
 
