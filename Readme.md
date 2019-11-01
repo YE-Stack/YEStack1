@@ -54,7 +54,7 @@ Our implementation works consdering you have set up the following prerequisites 
 
 #### Setting up the mobile app:
 
-* Go to the parent folder of the app and run the following code. This installs all dependencies required by the app.
+* Go to the parent folder of the app and run the following code. This installs all the dependencies required by the app.
 ```
 npm install
 ```
