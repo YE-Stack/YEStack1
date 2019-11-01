@@ -24,13 +24,14 @@ This is a project which was built to achieve the following requirements.
 ## Our Implementation
 **The App** - -> The app accepts a string and a text from the user and then sends it to the database. This triggers a Whatsapp and SMS notification to be sent to the web user.
 
-**The WebSite** - -> The web user enters a string and number on the website which is then sent to the backend. Here the two strings are concatinated, the two numbers added and the result is sent back to be displayed on the website. Whatsapp and SMS notifications are sent to the app user and the final output is displayed in the app too. The app user also gets a push notification when the output is prepared.
+**The WebSite** - -> The web user enters a string and number on the website which is then sent to the backend. Here the two st are rings are concatinated, the two numbers added and the result is sent back to be displayed on the website. Whatsapp and SMS notifications are sent to the app user and the final output is displayed in the app too. The app user also gets a push notification when the output is prepared.
 ### Tech Stack 
-* The mobile app has been built using React Native - -[ReactNative](https://facebook.github.io/react-native/)
+* The mobile app has been built using React Native Expo - -[Expo](https://docs.expo.io/versions/latest/)
 * The web app using Bootstrap - -[Bootstrap](https://getbootstrap.com/)
 * Firebase acts as non-local realtime database and also facilitates push notifications - -[Firebase](https://firebase.google.com/)
 *  The Twilio API has been used as the gateway for sending Whatsapp and SMS notifications to the web and mobile user. - -[Twilio](https://www.twilio.com/)
 * Django handles the working of the website and the backend of the implementation. - -[Django](https://djangogirls.org/)
+* expo-server-sdk is used for sending push notifications to the app user. --[Push Notification](https://docs.expo.io/versions/latest/guides/push-notifications/)
 
 **The twilio and Firebase integrations we have used are free trial implementations but when scaling paid plans would have to be used.**
 
@@ -38,7 +39,7 @@ This is a project which was built to achieve the following requirements.
 ## Getting Started
 
 ### Version Information
-[![Generic badge](https://img.shields.io/badge/<Firebase>-7.2.2-red.svg)](https://shields.io/)   [![Generic badge](https://img.shields.io/badge/<ReactNative>-0.61.3-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/<React>-16.9.0-teal.svg)](https://shields.io/)  [![Generic badge](https://img.shields.io/badge/<Django>-2.2.6-<COLOR>.svg)](https://shields.io/)  
+[![Generic badge](https://img.shields.io/badge/<Firebase>-7.2.2-red.svg)](https://shields.io/)   [![Generic badge](https://img.shields.io/badge/<Expo>-3.2.3-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/<React>-16.9.0-teal.svg)](https://shields.io/)  [![Generic badge](https://img.shields.io/badge/<Django>-2.2.6-<COLOR>.svg)](https://shields.io/)  
 
 ### Getting You Set Up
 Our implementation works consdering you have set up the following prerequisites ->
@@ -53,28 +54,28 @@ Our implementation works consdering you have set up the following prerequisites 
 
 #### Setting up the mobile app:
 
-* Go to the parent folder of the app and run the following code. This installs all the dependencies required by the app.
+* Go to the parent folder of the app and run the following code. This installs all the To start To start the serverthe serverdependencies required by the app.
 ```
 npm install
 ```
-* This starts a local server for the app and gives you a url to it.
+* This starts a expo development server for the app and gives you a url to it.
 ```
 expo start
 ```
 * To run the app on an android, you need to add your device to **adb devices** list. Follow this [guide](https://facebook.github.io/react-native/docs/running-on-device).
 
-* Make sure that your android device and the server run on your PC are connected to the same network.
+* Make sure that your android device and the expo server are connected to the same network.
 
 * After the terminal shows "Succesfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
 
-##### If you want to directly install the app. Click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. Or scan this using Expo app.
+##### If you want to directly install the app, click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. Or scan this using Expo app.
 
 ![qr code](docs/assets/images/qr.png)
 
 
 #### Setting up the Django backend server:
 
-* Go to the parent folder of the Django server and run the following code. This installs all the dependencies required. 
+* Go to the parent folder of the Django server and run the following code. This installs all the required dependencies. 
 ```
 pip install -r requirements.txt
 ```
