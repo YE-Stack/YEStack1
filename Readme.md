@@ -1,7 +1,8 @@
 # Level One Challenge
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-**Front End** - - - - - **Back End**
+**Front End** - - - - - - - - - **Back End**
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/53765614911d45bca78fab6d835d795d)](https://www.codacy.com/manual/jacob13400/FrontEnd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/FrontEnd&amp;utm_campaign=Badge_Grade)   [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aea362f304c449e986e288c7c5c2ef85)](https://www.codacy.com/manual/jacob13400/Notify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/Notify&amp;utm_campaign=Badge_Grade)
 ## Description
 This is a project which was built to achieve the following requirements.
