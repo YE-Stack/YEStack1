@@ -50,21 +50,35 @@ Our implementation works consdering you have set up the following prerequisites 
 
 
 ### Installing
-Inside Front-End Folder
+
+#### Setting up the mobile app:
+
+* Go to the parent folder of the app and run the following code. This installs all the dependencies required by the app.
 ```
 npm install
 ```
+* This starts a local server for the app and gives you a url to it.
 ```
-react-native run-android
+expo start
 ```
-```
-react-native start
-```
-Inside Notify folder
+* To run the app on an android, you need to add your device to **adb devices** list. Follow this [guide](https://facebook.github.io/react-native/docs/running-on-device).
+
+* Make sure that your android device and the server run on your PC are connected to the same network.
+
+* After the terminal shows "Succesfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
+
+##### If you want to directly install the app. Click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. Or scan this using Expo app.
+
+![qr code](docs/assets/images/qr.png)
+
+
+#### Setting up the Django backend server:
+
+* Go to the parent folder of the Django server and run the following code. This installs all the dependencies required. 
 ```
 pip install -r requirements.txt
 ```
-To start the server
+* Start the server and click on the url to access the web app.
 ```
 ./manage.py runserver
 ```
