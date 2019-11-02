@@ -19,7 +19,7 @@ This is a project which was built to achieve the following requirements.
 
 6.Send result from Web app to android app on submission of output to Android app and display it on app through a notification.
 
-7.Notify Web app user & Android app user through whatsapp and SMS
+7.Notify Web app user & Android app user through whatsapp and SMS. A push notification is sent to the app user too. 
 
 ## Our Implementation
 **The App** - -> The app accepts a string and a text from the user and then sends it to the database. This triggers a Whatsapp and SMS notification to be sent to the web user.
@@ -31,7 +31,6 @@ This is a project which was built to achieve the following requirements.
 * Firebase acts as non-local realtime database and also facilitates push notifications - -[Firebase](https://firebase.google.com/)
 *  The Twilio API has been used as the gateway for sending Whatsapp and SMS notifications to the web and mobile user. - -[Twilio](https://www.twilio.com/)
 * Django handles the working of the website and the backend of the implementation. - -[Django](https://djangogirls.org/)
-* expo-server-sdk is used for sending push notifications to the app user. --[Push Notification](https://docs.expo.io/versions/latest/guides/push-notifications/)
 
 **The twilio and Firebase integrations we have used are free trial implementations but when scaling paid plans would have to be used.**
 
@@ -68,7 +67,9 @@ expo start
 
 * After the terminal shows "Succesfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
 
-##### If you want to directly install the app, click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. Or scan this using Expo app.
+##### If you want to directly install the app, click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. 
+
+Or scan this using [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN) app.
 
 ![qr code](docs/assets/images/qr.png)
 
