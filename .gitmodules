@@ -1,6 +1,6 @@
 [submodule "Notify"]
 	path = Notify
 	url = https://github.com/YE-Stack/Notify.git
-[submodule "Android-App"]
-	path = Android-App
-	url = https://github.com/YE-Stack/Android-App.git
+[submodule "Mobile-App"]
+	path = Mobile-App
+	url = https://github.com/YE-Stack/Mobile-App.git
