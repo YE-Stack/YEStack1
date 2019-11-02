@@ -19,12 +19,12 @@ This is a project which was built to achieve the following requirements.
 
 6.Send result from Web app to android app on submission of output to Android app and display it on app through a notification.
 
-7.Notify Web app user & Android app user through whatsapp and SMS. A push notification is sent to the app user too. 
+7.Notify Web app user & Android app user through Whatsapp and SMS. A push notification is sent to the app user too. 
 
 ## Our Implementation
 **The App** - -> The app accepts a string and a text from the user and then sends it to the database. This triggers a Whatsapp and SMS notification to be sent to the web user.
 
-**The WebSite** - -> The web user enters a string and number on the website which is then sent to the backend. Here the two st are rings are concatinated, the two numbers added and the result is sent back to be displayed on the website. Whatsapp and SMS notifications are sent to the app user and the final output is displayed in the app too. The app user also gets a push notification when the output is prepared.
+**The WebSite** - -> The web user enters a string and number on the website which is then sent to the backend. Here the two st are rings are concatenated, the two numbers added and the result is sent back to be displayed on the website. Whatsapp and SMS notifications are sent to the app user and the final output is displayed in the app too. The app user also gets a push notification when the output is prepared.
 ### Tech Stack 
 * The mobile app has been built using React Native Expo - -[Expo](https://docs.expo.io/versions/latest/)
 * The web app using Bootstrap - -[Bootstrap](https://getbootstrap.com/)
@@ -41,14 +41,14 @@ This is a project which was built to achieve the following requirements.
 [![Generic badge](https://img.shields.io/badge/<Firebase>-7.2.2-red.svg)](https://shields.io/)   [![Generic badge](https://img.shields.io/badge/<Expo>-3.2.3-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/<React>-16.9.0-teal.svg)](https://shields.io/)  [![Generic badge](https://img.shields.io/badge/<Django>-2.2.6-<COLOR>.svg)](https://shields.io/)  
 
 ### Getting You Set Up
-Our implementation works consdering you have set up the following prerequisites ->
+Our implementation works considering you have set up the following prerequisites ->
 *  **Your device has Python 3** 
 * **Django is installed**
 * **React native is setup on your device**
 * **The numbers being used for Whatsapp and SMS services are authenticated with Twilio so please make sure your numbers are registered**
 
 ### Credentials Information
-**Please make sure that the you add allthe necessary autentation data pertaining to Firebase and Twilio to [credentials_sample.py](https://github.com/YE-Stack/Notify/blob/master/credentials_sample.py) before installing and running.**
+**Please make sure that you add all the necessary authentication data pertaining to Firebase and Twilio to [credentials_sample.py](https://github.com/YE-Stack/Notify/blob/master/credentials_sample.py) before installing and running.**
 
 ### Installing
 
@@ -66,7 +66,7 @@ expo start
 
 * Make sure that your android device and the expo server are connected to the same network.
 
-* After the terminal shows "Succesfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
+* After the terminal shows "Successfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
 
 ##### If you want to directly install the app, click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. 
 
