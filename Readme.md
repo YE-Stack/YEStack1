@@ -79,6 +79,13 @@ Or scan this using [Expo](https://play.google.com/store/apps/details?id=host.exp
 #### Setting up the Django backend server:
 
 * Go to the parent folder of the Django server and run the following code. This installs all the required dependencies. 
+* Setup a Virtual Environment
+```
+python -m venv venv
+# Activate it
+source venv/bin/activate
+```
+* Install required packages
 ```
 pip install -r requirements.txt
 ```
