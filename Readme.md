@@ -1,5 +1,5 @@
 # Level One Challenge
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) ![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg) ![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 
 **Front End** - - - - - - **Back End**
 
@@ -39,7 +39,7 @@ This is a project which was built to achieve the following requirements.
 ## Getting Started
 
 ### Version Information
-[![Generic badge](https://img.shields.io/badge/<Firebase>-7.2.2-red.svg)](https://shields.io/)   [![Generic badge](https://img.shields.io/badge/<Expo>-3.2.3-blue.svg)](https://shields.io/) [![Generic badge](https://img.shields.io/badge/<React>-16.9.0-teal.svg)](https://shields.io/)  [![Generic badge](https://img.shields.io/badge/<Django>-2.2.6-<COLOR>.svg)](https://shields.io/)  
+![Generic badge](https://img.shields.io/badge/<Firebase>-7.2.2-red.svg)  ![Generic badge](https://img.shields.io/badge/<Expo>-3.2.3-blue.svg) ![Generic badge](https://img.shields.io/badge/<React>-16.9.0-teal.svg) ![Generic badge](https://img.shields.io/badge/<Django>-2.2.6-<COLOR>.svg)
 
 ### Getting You Set Up
 Our implementation works considering you have set up the following prerequisites ->
