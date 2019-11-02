@@ -49,7 +49,7 @@ Our implementation works considering you have set up the following prerequisites
 * **The numbers being used for Whatsapp and SMS services are authenticated with Twilio so please make sure your numbers are registered**
 
 ### Credentials Information
-* Please make sure that you add all the necessary authentication data pertaining to Firebase and Twilio to [credentials_sample.py](https://github.com/YE-Stack/Notify/blob/master/credentials_sample.py) before installing and running and rename it as "credentials.py"**.
+* Please make sure that you add all the necessary authentication data pertaining to Firebase and Twilio to [credentials_sample.py](https://github.com/YE-Stack/Notify/blob/master/credentials_sample.py) before installing and running and rename it as "credentials.py".
 
 * Add Firebase web-apis used in "credentials.py" to "/app/components/Config/config.js", in the mobile app folder.
 
