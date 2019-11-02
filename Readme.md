@@ -3,7 +3,8 @@
 
 **Front End** - - - - - - **Back End**
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/53765614911d45bca78fab6d835d795d)](https://www.codacy.com/manual/jacob13400/FrontEnd?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/FrontEnd&amp;utm_campaign=Badge_Grade)   [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aea362f304c449e986e288c7c5c2ef85)](https://www.codacy.com/manual/jacob13400/Notify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/Notify&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f4c9f7bd52714957be2b80fc66248d30)](https://www.codacy.com/manual/jacob13400/Android-App?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/Android-App&amp;utm_campaign=Badge_Grade)
+   [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aea362f304c449e986e288c7c5c2ef85)](https://www.codacy.com/manual/jacob13400/Notify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=YE-Stack/Notify&amp;utm_campaign=Badge_Grade)
 ## Description
 This is a project which was built to achieve the following requirements.
 
@@ -66,7 +67,7 @@ expo start
 
 * Make sure that your android device and the expo server are connected to the same network.
 
-* After the terminal shows "Successfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
+* After the terminal shows "Succesfully ran adb reverse". Either scan the QR code (this requires **Expo** app, which can be installed from [here](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN)) or just press 'a', this automatically installs the debug app and runs it.
 
 ##### If you want to directly install the app, click [here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/@narddoggo/new-02b8286b17364c86a805b76c51af4b45-signed.apk) for the .apk file. 
 
